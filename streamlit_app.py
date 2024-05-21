@@ -12,7 +12,7 @@ from PIL import Image
 st.title("Sign Language Translator")
 st.subheader("የምልክት ቋንቋ ወደ አማርኛ ይተርጉሙ!")
 
-# Initialize session state
+
 if 'detecting' not in st.session_state:
     st.session_state.detecting = False
 
